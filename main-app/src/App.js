@@ -1,9 +1,11 @@
 import './App.css';
-import splash from './pages/splash';
+import Splash from './pages/Splash';
 
 function App() {
     //return (<div>App</div>);
-    return (splash());
+    return (
+        <Splash/>
+    );
 }
 
 export default App;

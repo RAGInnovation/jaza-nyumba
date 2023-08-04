@@ -1,8 +1,6 @@
-//import react from 'react';
-import "../App.css";
-//import Home from './pages/Home';
+import React from "react";
 
-function login() {
+const Login = () => {
 	return (
 		<div>
 			<div className="email">
@@ -50,10 +48,6 @@ function login() {
 			</div>
 		</div>
 	);
-}
+};
 
-function signup() {
-	return <div>sigh up</div>;
-}
-
-export { login, signup };
+export default Login;
